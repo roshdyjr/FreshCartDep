@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+body {
+  @apply bg-background-primary;
+}
+
+body .dark {
+  @apply bg-background-secondary;
+}
+
+.active {
+  color: #E9522C !important;
+}
+
+
+.active {
+  @apply font-bold text-lg;
+}
+
